@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+    --color-terminal: #ffffff;
+    --borde-redondo: 4px;
+}
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://s1.gifyu.com/images/BINARYe904f0f14ea76216.gif);
+    background-size: cover;
+    color: black;
+    
+}
+
+header{
+    background-color: rgb(97, 61, 131);
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 580px;
+    padding: 15px;
+    font-size: 50px;
+    padding-left: 444px;
+    padding-right: 444px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+main {
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+    background-color: rgb(73, 199, 42);
+    position: absolute;
+    margin-top: 90px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+#input-original, #input-segundo, #desplazamiento {
+    background-color: var(--color-terminal);
+    width: -webkit-fill-available;
+}
+
+#input-original {
+    margin: 10px 0 0;
+    padding: 10px;
+    color: black;
+    border-top-left-radius: var(--borde-redondo);
+    border-top-right-radius: var(--borde-redondo);
+}
+
+#input-segundo {
+    margin: 10px 0 0;
+    padding: 10px;
+    color: black;
+    border-top-left-radius: var(--borde-redondo);
+    border-top-right-radius: var(--borde-redondo);
+}
+
+nav{
+    
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+    background-color: rgb(144, 141, 192);
+    width: 250px;
+    height: 250px;
+    margin-right: 250px;
+    text-align: justify;
+    margin-top: 90px;
+    
+}
+
+h4{
+    text-align: center;
+}
+
+section{
+    
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+    background-color: rgb(133, 178, 192);
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    text-align: justify;
+    margin-top: 90px;
+    
+}
+
+#casilla{
+    background-color: rgb(185, 122, 157);
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+#desplazamiento{
+   padding: 10px;
+   border-top-left-radius: var(--borde-redondo);
+   border-top-right-radius: var(--borde-redondo);
+}
+#cifrar{
+    background-color: rgb(224, 47, 145);
+    font-size: 16px;
+
+}
+#descifrar{
+    background-color: rgb(33, 248, 227);
+    font-size: 16px;
+}
